@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans', 'Noto Sans KR', sans-serif;
+}
+
+body {
+  font-size: var(--font-size-main);
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  cursor: pointer;
+}
+
+.link {
+  background-color: transparent;
+  color: black;
+  border: none;
+}
+
+:root {
+  --font-size-main: 20px;
+}
