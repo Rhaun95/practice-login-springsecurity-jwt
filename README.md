@@ -1,7 +1,8 @@
 # Login Service via Spring Security + JWT
 </br>
 
-### Was ist JWT?
+### 
+Was ist JWT?
 ---
 JWT (JSON Web Token) ist ein offener Standard zur sicheren Übertragung von Informationen zwischen Parteien als JSON-Objekt.</br>
 JWT besteht aus drei Teilen:
@@ -12,7 +13,8 @@ JWT besteht aus drei Teilen:
 </br>
 </br>
 
-### Authentifizierungsprozess in Spring Security
+### 
+Authentifizierungsprozess in Spring Security
 ---
 
 </br>
