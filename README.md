@@ -3,10 +3,8 @@
 ####
 ☀️ Projektbeschreibung 
 ---
-Dies ist ein Mini-Projekt, das darauf abzielt, einn sichereren Authentifizierungsprozess zu erlernen, 
-indem ich nicht nur einfache Sessions verwende, sondern Spring Security und JWT integriere. 
-</br>
-Meine Motivation liegt in der Erweiterung meines Wissens durch das Erlernen und Anwenden neuer Technologien.
+Dies ist ein Mini-Projekt, das darauf abzielt, einen sichereren Authentifizierungsprozess zu erlernen, 
+indem ich nicht Sessions verwende, sondern Spring Security und JWT integriere. 
 </br>
 
 Zu den Funktionen gehören grundlegende CRUD-Operationen wie _**Registrierung, Kontolöschung, Login, Logout, Informationsabfrage und Informationsaktualisierung**_.
