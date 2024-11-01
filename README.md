@@ -8,11 +8,12 @@ indem ich nicht Sessions verwende, sondern Spring Security und JWT integriere.
 </br>
 Um den Aufwand zu vermeiden, dass man sich nach dem Ablauf des Access-Tokens erneut anmelden muss, wird ein Refresh-Token in Verbindung mit Redis verwendet. Mithilfe des Refresh-Tokens kann der Benutzer ein neues Access-Token erhalten.
 </br>
+</br>
 Redis wird eingesetzt weil...
 - aufgrund seines Key-Value-Datenmodells und der In-Memory-Verarbeitung ist ideal, um kurzlebige Tokens wie das Refresh-Token zu speichern und zu verwalten.
 - man kann durch die TTL-Funktion (Time To Live) von Redis die Gültigkeitsdauer eines Tokens festlegen, sodass abgelaufene Tokens automatisch gelöscht werden.
 - schnelle Lese- und Schreibgeschwindigkeit, wodurch beim Ausstellen eines Refresh-Tokens keine Engpässe entstehen.
-- 
+</br>
 </br>
 Zu den Funktionen gehören grundlegende CRUD-Operationen wie _**Registrierung, Kontolöschung, Login, Logout, Informationsabfrage und Informationsaktualisierung**_.
 
@@ -24,10 +25,10 @@ Zu den Funktionen gehören grundlegende CRUD-Operationen wie _**Registrierung, K
 
 | **Languages & Frameworks** | Java, Spring Boot, Spring Security, JavaScript, React |
 |---------------------------|------------------------------------------------------|
-| **Libraries**             | Lombok, JJWT                                         |
-| **Database**              | MySQL                                                |
+| **Libraries**             | Lombok, JJWT, JUnit                                  |
+| **Database**              | MySQL, Redis                                         |
 | **Environment**           | IntelliJ, Github, Git                                |
-
+| **DevOps**           | Docker                               |
 
 </br>
 
